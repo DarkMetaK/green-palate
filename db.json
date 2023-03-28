@@ -1,0 +1,785 @@
+{
+  "recipes": [
+    {
+      "id": "532595ba-3160-4257-9045-aa37a2f42c81",
+      "title": "Berinjela Recheada",
+      "description": "As berinjelas recheadas no forno ficam com a polpa macia, perfeita para serem transformadas em um babaganuche bem cremoso. O preparo leva mais tempo do que a versão tradicional, mas quem faz o trabalho é o forno.",
+      "imageURL": "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "category": "main",
+      "ratings": [
+        {
+          "userId": 1,
+          "rate": 4
+        },
+        {
+          "userId": 2,
+          "rate": 5
+        }
+      ],
+      "portions": 4,
+      "requiredTime": 2700000,
+      "ingredients": [
+        "2 berinjelas grandes",
+        "1 cebola grande picada",
+        "1 dente de alho picado",
+        "200ml creme de soja",
+        "2 colheres de azeite (sopa)"
+      ],
+      "preparation": [
+        "Cortar as beringelas ao meio e pincelar com limão. Retirar miolo picar e envolver em sumo de limão. Reservar.",
+        "Pincelar as cascas com azeite e salpicar com sal. Levar a assar no forno a 180º durante 10/15 minutos. Retirar e reservar.",
+        "Numa frigideira levar a aquecer o um fio de azeite. Juntar um dente de alho picado e saltear.",
+        "Juntar a cebola roxa picada e deixar cozinhar.",
+        "Juntar o miolo de beringela. Envolver e deixar cozinhar. Temperar com pimenta.",
+        "Adicionar o creme de soja, salsa picada e uma pitada de noz moscada. Envolver muito bem.",
+        "Rechear as cascas de beringela com o estufado e decorar com tomatinhos cherry.",
+        "Levar ao forno a gratinar durante 25 minutos a 180º."
+      ],
+      "slug": "berinjela-recheada"
+    },
+    {
+      "id": "b5ac5f89-fe87-4070-bd1d-63711356d936",
+      "title": "Macarrão Cremoso",
+      "description": "Macarrão delicioso e extremamente cremoso, ideal para aquele almoço em família de Domingo.",
+      "imageURL": "https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "category": "main",
+      "ratings": [
+        {
+          "userId": 1,
+          "rate": 5
+        }
+      ],
+      "portions": 4,
+      "requiredTime": 2700000,
+      "ingredients": [
+        "250 gr de espaguete",
+        "1/2 maço de espinafre limpo e lavado",
+        "1 caixinha de creme de soja",
+        "1 1/2 colheres (chá) de sal",
+        "2 colheres (sopa) de castanha-de-caju picada"
+      ],
+      "preparation": [
+        "Leve ao fogo uma panela com 2 litros e meio de água e sal.",
+        "Assim que a água ferver, junte o macarrão, mexendo de vez em quando por cerca de 8 minutos ou até ficar al dente.",
+        "Enquanto isso, prepare o molho.",
+        "Coloque o espinafre em uma panela de fundo largo tampada e, cozinhe em fogo baixo, em seu próprio suco.",
+        "Quando estiver macio, retire o espinafre do fogo, esprema e pique.",
+        "Em uma panela, misture o espinafre com o creme de leite de soja e o sal.",
+        "Deixe aquecer sem ferver.",
+        "Escorra o macarrão, passe-o para uma travessa e misture o molho.",
+        "Sirva polvilhado com a castanha de caju"
+      ],
+      "slug": "macarrao-cremoso"
+    },
+    {
+      "id": "960d3315-2743-4c2d-98be-f91ee125b69f",
+      "title": "Batatas Assadas",
+      "description": "Essas batatas ficam uma delicia, e servem tanto como aperitivo, como prato principal, sendo uma refeição prática e rápida.",
+      "imageURL": "https://images.unsplash.com/photo-1633959639810-16c90bee95f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+      "category": "main",
+      "ratings": [
+        {
+          "userId": 1,
+          "rate": 4
+        }
+      ],
+      "portions": 2,
+      "requiredTime": 1500000,
+      "ingredients": [
+        "4 Batatas médias",
+        "3 Colheres de sopa de Azeite",
+        "Sal e Pimenta-do-Reino a gosto",
+        "Orégano a gosto.",
+        "1 dente de Alho"
+      ],
+      "preparation": [
+        "Descasque as batatas e corte em quatro pedaços.",
+        "Coloque as batatas em uma panela com água fervente e deixe cozinhar por 10 minutos.",
+        "Após escorrer a água, coloque em uma travessa as batatas.",
+        "Tempere com o sal, orégano e a pimenta, regue com azeite e jogue o alho picado.",
+        "Leve ao forno pré-aquecido a 180°C por 30 minutos,"
+      ],
+      "slug": "batatas-assadas"
+    },
+    {
+      "id": "da176a6c-679e-4317-9109-3e3c7d98d201",
+      "title": "Strogonoff de Palmito",
+      "description": "Esse strogonoff é perfeito para surpreender a familia e/ou amigos, simples de fazer, mas com um resultado final impecável.",
+      "imageURL": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=384&q=80",
+      "category": "main",
+      "ratings": [
+        {
+          "userId": 1,
+          "rate": 5
+        },
+        {
+          "userId": 2,
+          "rate": 5
+        }
+      ],
+      "portions": 4,
+      "requiredTime": 1800000,
+      "ingredients": [
+        "1 xícara de chá de aveia em flocos finos",
+        "2 xícaras de chá de água",
+        "4 dentes de alho picados",
+        "1/2 xícara de chá de cebola picada",
+        "300 gramas de palmito fatiado",
+        "100 gramas de cogumelos champignon fatiados",
+        "2 xícaras de chá de molho de tomate",
+        "1/2 xícara de chá de água",
+        "2 colheres de sopa de mostarda amarela",
+        "1 xícara de chá de salsinha picada",
+        "Sal a gosto"
+      ],
+      "preparation": [
+        "Coloque a aveia e a água no liquidificador e deixe de molho por meia hora; depois, bata por um minuto, coe e reserve.",
+        "Coloque um fio de óleo em uma panela, leve-a ao fogo médio e refogue o alho e a cebola até ficarem levemente dourados; em seguida, acrescente o palmito, o champignon, tempere-os com sal e refogue-os.",
+        "Junte o molho de tomate, a água, a mostarda e misture. Corrija o sal, se necessário, abaixe o fogo e deixe os ingredientes cozinharem por mais 5 minutos.",
+        "Acrescente o leite de aveia (feito no liquidificador) e misture.",
+        "Adicione a salsinha picada, misture, desligue o fogo e sirva."
+      ],
+      "slug": "strogonoff-de-palmito"
+    },
+    {
+      "id": "821ab0a1-1df2-4872-8c62-9be9b4243157",
+      "title": "Risoto de cogumelos",
+      "description": "Risoto cremoso de cogumelos com um toque de vinho branco. Perfeito para uma refeição sofisticada e deliciosa.",
+      "imageURL": "https://images.unsplash.com/photo-1595908129746-57ca1a63dd4d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "category": "main",
+      "ratings": [
+        {
+          "userId": 1,
+          "rate": 5
+        },
+        {
+          "userId": 2,
+          "rate": 4
+        }
+      ],
+      "portions": 4,
+      "requiredTime": 3000000,
+      "ingredients": [
+        "1 xícara de arroz arbóreo",
+        "1 cebola picada",
+        "3 dentes de alho picados",
+        "2 xícaras de cogumelos fatiados",
+        "1/2 xícara de vinho branco",
+        "4 xícaras de caldo de legumes",
+        "1 colher de sopa de manteiga vegana",
+        "1/2 xícara de queijo vegano ralado",
+        "Sal e pimenta a gosto"
+      ],
+      "preparation": [
+        "Refogue a cebola e o alho em uma panela com um pouco de óleo até ficarem macios.",
+        "Adicione os cogumelos e refogue até que estejam macios e dourados.",
+        "Adicione o arroz e misture bem. Adicione o vinho branco e mexa até que seja absorvido.",
+        "Adicione uma xícara de caldo de legumes e mexa até que seja absorvido. Continue adicionando caldo de legumes, uma xícara de cada vez, até que o arroz esteja cozido e cremoso.",
+        "Adicione a manteiga vegana e o queijo vegano e misture bem. Tempere com sal e pimenta a gosto.",
+        "Sirva imediatamente."
+      ],
+      "slug": "risoto-de-cogumelos"
+    },
+    {
+      "id": "864f8601-0e4c-4e7d-8a62-4927ccbf3b3f",
+      "title": "Curry de Grão de Bico",
+      "description": "Um prato vegano delicioso e fácil de preparar, ideal para uma refeição rápida durante a semana.",
+      "imageURL": "https://images.unsplash.com/photo-1582576163090-09d3b6f8a969?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
+      "category": "main",
+      "ratings": [
+        {
+          "userId": 1,
+          "rate": 5
+        },
+        {
+          "userId": 2,
+          "rate": 4
+        }
+      ],
+      "portions": 4,
+      "requiredTime": 1800000,
+      "ingredients": [
+        "2 latas de grão de bico cozido",
+        "1 cebola grande picada",
+        "3 dentes de alho picados",
+        "1 pimentão vermelho picado",
+        "1 pimentão amarelo picado",
+        "1 colher de sopa de gengibre ralado",
+        "1 colher de sopa de azeite",
+        "400ml de leite de coco",
+        "1 colher de chá de cominho em pó",
+        "1 colher de chá de coentro em pó",
+        "1 colher de chá de cúrcuma",
+        "1 colher de chá de sal",
+        "Coentro fresco picado a gosto"
+      ],
+      "preparation": [
+        "Em uma panela grande, aqueça o azeite e refogue a cebola e o alho até que fiquem macios.",
+        "Adicione os pimentões e refogue por mais alguns minutos.",
+        "Adicione o gengibre ralado, o cominho, o coentro em pó, a cúrcuma e o sal e misture bem.",
+        "Adicione o leite de coco e o grão de bico cozido e deixe cozinhar em fogo baixo por cerca de 15 minutos.",
+        "Sirva quente, salpicado com coentro fresco picado a gosto."
+      ],
+      "slug": "curry-de-grao-de-bico"
+    },
+    {
+      "id": "b8f4d4f1-0c4a-4e62-bde8-cab81b7efc80",
+      "title": "Strogonoff de cogumelos",
+      "description": "Um prato delicioso e fácil de fazer, perfeito para uma refeição em família ou amigos. Nesta receita, substituímos a carne pelo cogumelo, deixando o prato ainda mais saboroso e saudável.",
+      "imageURL": "https://images.unsplash.com/photo-1644592219048-5c070fd3c91c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=661&q=80",
+      "category": "main",
+      "ratings": [
+        {
+          "userId": 1,
+          "rate": 5
+        },
+        {
+          "userId": 2,
+          "rate": 4
+        },
+        {
+          "userId": 3,
+          "rate": 5
+        }
+      ],
+      "portions": 4,
+      "requiredTime": 2400000,
+      "ingredients": [
+        "500g de cogumelos frescos",
+        "1 cebola grande picada",
+        "3 dentes de alho picados",
+        "1 lata de creme de leite de soja",
+        "1 xícara de caldo de legumes",
+        "2 colheres de sopa de mostarda",
+        "2 colheres de sopa de ketchup",
+        "2 colheres de sopa de azeite",
+        "Sal e pimenta a gosto"
+      ],
+      "preparation": [
+        "Lave e pique os cogumelos em fatias.",
+        "Em uma panela grande, aqueça o azeite e refogue a cebola e o alho até ficarem dourados.",
+        "Adicione os cogumelos e deixe cozinhar por alguns minutos até que eles comecem a soltar água.",
+        "Acrescente o caldo de legumes, a mostarda e o ketchup, misture bem e deixe cozinhar por mais alguns minutos.",
+        "Por fim, adicione o creme de leite de soja e misture tudo novamente.",
+        "Deixe cozinhar por mais alguns minutos até que o estrogonofe comece a borbulhar.",
+        "Sirva quente com arroz integral e salada de folhas verdes."
+      ],
+      "slug": "estrogonofe-de-cogumelos"
+    },
+    {
+      "id": "47e0b311-a83e-4bf8-8e29-663f5b94430f",
+      "title": "Lentilha com Legumes",
+      "description": "Uma deliciosa receita vegana de lentilha com legumes.",
+      "imageURL": "https://images.unsplash.com/photo-1625128726835-c8ef5773ce94?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "category": "main",
+      "ratings": [
+        {
+          "userId": 123,
+          "rate": 5
+        },
+        {
+          "userId": 456,
+          "rate": 4
+        },
+        {
+          "userId": 789,
+          "rate": 3
+        }
+      ],
+      "portions": 4,
+      "requiredTime": 1800000,
+      "ingredients": [
+        "2 xícaras de lentilha",
+        "1 cebola picada",
+        "3 dentes de alho picados",
+        "1 cenoura picada",
+        "1 pimentão picado",
+        "1 abobrinha picada",
+        "2 tomates picados",
+        "2 colheres de sopa de azeite",
+        "1 colher de chá de cominho",
+        "1 colher de chá de curry em pó",
+        "1 colher de chá de sal",
+        "4 xícaras de água"
+      ],
+      "preparation": [
+        "Lave bem a lentilha e deixe de molho em água por pelo menos 2 horas.",
+        "Refogue a cebola e o alho no azeite até dourar.",
+        "Acrescente a cenoura, o pimentão e a abobrinha e refogue por mais alguns minutos.",
+        "Adicione o tomate, o cominho, o curry e o sal e refogue por mais 1 minuto.",
+        "Escorra a água da lentilha e adicione à panela.",
+        "Acrescente a água e cozinhe por cerca de 30 minutos, ou até que a lentilha esteja macia.",
+        "Sirva quente."
+      ],
+      "slug": "lentilha-com-legumes"
+    },
+    {
+      "id": "c4dc4b98-eb8c-44b4-aa70-f95a64fa8d3a",
+      "title": "Quinoa com Cogumelos e Espinafre",
+      "description": "Uma deliciosa receita vegana de quinoa com cogumelos e espinafre, rica em proteínas e nutrientes.",
+      "imageURL": "https://images.unsplash.com/photo-1615865417491-9941019fbc00?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "category": "main",
+      "ratings": [
+        {
+          "userId": 234,
+          "rate": 5
+        },
+        {
+          "userId": 567,
+          "rate": 4
+        },
+        {
+          "userId": 890,
+          "rate": 4
+        }
+      ],
+      "portions": 4,
+      "requiredTime": 2400000,
+      "ingredients": [
+        "1 xícara de quinoa",
+        "2 xícaras de água",
+        "2 colheres de sopa de azeite",
+        "1 cebola picada",
+        "2 dentes de alho picados",
+        "200g de cogumelos fatiados",
+        "3 xícaras de espinafre picado",
+        "1 colher de chá de páprica defumada",
+        "1 colher de chá de cominho",
+        "1 colher de chá de sal",
+        "1 limão cortado em fatias"
+      ],
+      "preparation": [
+        "Lave bem a quinoa em água corrente.",
+        "Coloque a quinoa e a água em uma panela e leve para ferver.",
+        "Reduza o fogo e deixe cozinhar por cerca de 15 minutos, ou até que a quinoa esteja macia e a água tenha sido absorvida.",
+        "Enquanto isso, aqueça o azeite em uma frigideira grande e refogue a cebola e o alho até dourar.",
+        "Adicione os cogumelos e refogue por mais alguns minutos, até que estejam macios e dourados.",
+        "Acrescente o espinafre, a páprica, o cominho e o sal e refogue até que o espinafre murche.",
+        "Divida a quinoa cozida em pratos e coloque o refogado de cogumelos e espinafre por cima.",
+        "Decore com fatias de limão e sirva quente."
+      ],
+      "slug": "quinoa-com-cogumelos-e-espinafre"
+    },
+    {
+      "id": "2c68c5f7-fd87-4e0a-88cb-872787aa59d6",
+      "title": "Espaguete de abobrinha ao pesto",
+      "description": "Uma opção deliciosa e saudável para substituir o espaguete tradicional.",
+      "imageURL": "https://images.unsplash.com/photo-1645775372267-c0299feab469?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "category": "main",
+      "ratings": [
+        {
+          "userId": 1,
+          "rate": 5
+        },
+        {
+          "userId": 2,
+          "rate": 4
+        },
+        {
+          "userId": 3,
+          "rate": 5
+        }
+      ],
+      "portions": 2,
+      "requiredTime": 1800000,
+      "ingredients": [
+        "2 abobrinhas",
+        "1 xícara de manjericão fresco",
+        "½ xícara de azeite",
+        "2 dentes de alho",
+        "1/3 xícara de nozes",
+        "Suco de 1 limão",
+        "Sal e pimenta a gosto"
+      ],
+      "preparation": [
+        "Lave e corte as extremidades das abobrinhas.",
+        "Use um espiralizador para cortar as abobrinhas em formato de espaguete.",
+        "Coloque o espaguete de abobrinha em uma peneira e salpique com um pouco de sal para retirar o excesso de água.",
+        "Em um processador, misture o manjericão, azeite, alho, nozes e suco de limão até obter um molho pesto homogêneo.",
+        "Em uma frigideira, refogue o espaguete de abobrinha com o molho pesto até que esteja cozido e macio.",
+        "Tempere com sal e pimenta a gosto.",
+        "Sirva quente."
+      ],
+      "slug": "espaguete-de-abobrinha-ao-pesto"
+    },
+    {
+      "id": "9a7d332e-ba06-4a61-8c2f-cc1d13981d2c",
+      "title": "Macarrão com cogumelos e tomates",
+      "description": "Uma deliciosa receita vegana de macarrão com cogumelos e tomates secos, perfeita para um jantar fácil e rápido.",
+      "imageURL": "https://images.unsplash.com/photo-1627286400579-027de47e9e73?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "category": "main",
+      "ratings": [
+        {
+          "userId": 1,
+          "rate": 4
+        },
+        {
+          "userId": 2,
+          "rate": 5
+        },
+        {
+          "userId": 3,
+          "rate": 3
+        }
+      ],
+      "portions": 4,
+      "requiredTime": 1800000,
+      "ingredients": [
+        "400g de macarrão vegano",
+        "2 colheres de sopa de azeite",
+        "1 cebola picada",
+        "2 dentes de alho picados",
+        "250g de cogumelos fatiados",
+        "100g de tomates secos hidratados e picados",
+        "2 colheres de sopa de molho de soja",
+        "1 colher de chá de orégano",
+        "Sal e pimenta a gosto",
+        "Salsinha picada a gosto"
+      ],
+      "preparation": [
+        "Cozinhe o macarrão de acordo com as instruções da embalagem.",
+        "Enquanto isso, aqueça o azeite em uma frigideira grande em fogo médio.",
+        "Adicione a cebola e o alho e refogue por cerca de 2 minutos até ficarem macios.",
+        "Acrescente os cogumelos e refogue por mais 5 minutos, até que fiquem dourados.",
+        "Adicione os tomates secos, o molho de soja e o orégano e misture bem.",
+        "Tempere com sal e pimenta a gosto.",
+        "Escorra o macarrão e adicione à frigideira com o molho.",
+        "Misture bem e cozinhe por mais 1-2 minutos.",
+        "Sirva quente, polvilhado com salsinha picada a gosto."
+      ],
+      "slug": "macarrao-cogumelos-tomates-secos"
+    },
+    {
+      "id": "d1c9b05a-8f6c-4a90-bf6c-b1f47f8f550c",
+      "title": "Curry Vegano de Lentilha",
+      "description": "Um curry vegano de lentilha cheio de sabor e nutrientes, perfeito para uma refeição rápida e saudável.",
+      "imageURL": "https://images.unsplash.com/photo-1596797038530-2c107229654b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
+      "category": "main",
+      "ratings": [
+        {
+          "userId": 1,
+          "rate": 5
+        },
+        {
+          "userId": 2,
+          "rate": 4
+        },
+        {
+          "userId": 3,
+          "rate": 4
+        }
+      ],
+      "portions": 4,
+      "requiredTime": 2400000,
+      "ingredients": [
+        "2 colheres de sopa de óleo de coco",
+        "1 cebola picada",
+        "3 dentes de alho picados",
+        "1 colher de sopa de gengibre ralado",
+        "2 colheres de sopa de curry em pó",
+        "1 colher de chá de cominho em pó",
+        "1 colher de chá de coentro em pó",
+        "1/2 colher de chá de cúrcuma em pó",
+        "1/2 colher de chá de pimenta-caiena",
+        "400g de lentilha cozida",
+        "1 lata de tomate pelado",
+        "1/2 xícara de leite de coco",
+        "Sal e pimenta-do-reino a gosto",
+        "Coentro fresco picado para decorar"
+      ],
+      "preparation": [
+        "Em uma panela grande, aqueça o óleo de coco em fogo médio.",
+        "Adicione a cebola e refogue por cerca de 5 minutos, até ficar macia.",
+        "Adicione o alho e o gengibre e refogue por mais 2 minutos.",
+        "Adicione o curry em pó, o cominho em pó, o coentro em pó, a cúrcuma em pó e a pimenta-caiena. Refogue por 1-2 minutos, mexendo constantemente.",
+        "Adicione as lentilhas, o tomate pelado e o leite de coco. Misture bem e deixe cozinhar por cerca de 10-15 minutos, até que o molho esteja espesso e os sabores tenham se misturado.",
+        "Tempere com sal e pimenta-do-reino a gosto.",
+        "Sirva quente, decorado com coentro fresco picado."
+      ],
+      "slug": "curry-vegano-lentilha"
+    },
+    {
+      "id": "69fb93af-9c48-4d48-8c75-ba5b5d5f7bb5",
+      "title": "Ceviche de Jaca",
+      "description": "Uma versão vegana do famoso prato peruano, feita com carne de jaca e muito saborosa.",
+      "imageURL": "https://images.unsplash.com/photo-1664992915025-e5e4bbd67fe1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "category": "appetizer",
+      "ratings": [
+        {
+          "userId": 1,
+          "rate": 4
+        },
+        {
+          "userId": 2,
+          "rate": 5
+        },
+        {
+          "userId": 3,
+          "rate": 4
+        }
+      ],
+      "portions": 4,
+      "requiredTime": 1800000,
+      "ingredients": [
+        "1 lata de carne de jaca verde em conserva",
+        "1 cebola roxa picada",
+        "1 pimentão vermelho picado",
+        "1/2 xícara de suco de limão",
+        "1/2 xícara de suco de laranja",
+        "1/4 xícara de coentro picado",
+        "1 colher de chá de sal",
+        "1/4 colher de chá de pimenta-do-reino",
+        "1 pimenta dedo-de-moça picada (opcional)",
+        "1 abacate picado",
+        "Chips de tortilla para acompanhar"
+      ],
+      "preparation": [
+        "Escorra a carne de jaca e retire as sementes. Desfie com um garfo.",
+        "Em uma tigela grande, misture a carne de jaca desfiada, a cebola roxa, o pimentão vermelho, o suco de limão, o suco de laranja, o coentro, o sal, a pimenta-do-reino e a pimenta dedo-de-moça (se estiver usando).",
+        "Deixe marinar na geladeira por pelo menos 30 minutos.",
+        "Adicione o abacate picado e misture delicadamente.",
+        "Sirva com chips de tortilla."
+      ],
+      "slug": "ceviche-vegano-jaca"
+    }
+  ],
+  "comments": [
+    {
+      "id": "0dc05d25-58e2-4907-972f-5e3c90da114e",
+      "recipeId": "532595ba-3160-4257-9045-aa37a2f42c81",
+      "accountsId": "fc3365ca-2a83-4631-8929-6a1580ac4bd0",
+      "text": "Receita deliciosa, fiz em casa e não me arrependi!!"
+    },
+    {
+      "id": "6a8bd960-7cf9-4ce1-8dfc-9c4d0a01b88d",
+      "recipeId": "532595ba-3160-4257-9045-aa37a2f42c81",
+      "accountsId": "85391858-775a-42d2-a416-c3f250cac49e",
+      "text": "Uma sugestão, deixem mais 15 minutinhos no forno, e fica divino!"
+    }
+  ],
+  "posts": [
+    {
+      "id": "b6dd39e6-1f6e-4aeb-84f5-7a14e00d2f7b",
+      "title": "Como conservar beterraba por mais tempo: dicas simples para evitar o desperdício",
+      "date": "02/02/2023",
+      "timeStamp": 1675344000,
+      "imageURL": "https://images.unsplash.com/photo-1573426667638-18ccdd988a39?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+      "author": "Matheus Porto",
+      "content": [
+        {
+          "paragraph": "A beterraba é um vegetal versátil e saboroso, que pode ser consumido em saladas, sucos, sopas e diversos outros pratos. No entanto, muitas vezes acabamos comprando mais beterraba do que conseguimos consumir antes que ela comece a estragar. Para evitar o desperdício, é importante saber como conservar beterraba por mais tempo."
+        },
+        {
+          "subtitle": "Confira a seguir algumas dicas simples:",
+          "paragraph": "1. Armazenar na geladeira: A beterraba pode ser armazenada na geladeira por até duas semanas. Antes de colocá-la na geladeira, retire as folhas e corte as pontas. Em seguida, envolva-a em papel alumínio ou plástico filme e coloque-a em um saco plástico perfurado. Isso ajudará a manter a umidade e evitará que a beterraba murche ou estrague."
+        },
+        {
+          "paragraph": "2. Congelar: Se você não pretende usar a beterraba imediatamente, pode congelá-la. Para isso, cozinhe-a em água fervente por cerca de 20 minutos, retire a casca e corte em cubos. Depois, coloque os cubos em um saco plástico próprio para congelamento e leve ao freezer. A beterraba pode ser mantida congelada por até seis meses."
+        },
+        {
+          "paragraph": "3. Conservar em conserva: A beterraba também pode ser conservada em conserva por vários meses. Para isso, cozinhe as beterrabas em água e vinagre por cerca de 20 minutos, retire a casca e corte em rodelas. Em seguida, coloque as rodelas em um pote de vidro esterilizado e adicione uma mistura de água, vinagre, açúcar, sal e temperos a gosto. Feche o pote e coloque-o em um local fresco e escuro. A beterraba em conserva pode ser consumida como acompanhamento ou utilizada em receitas diversas."
+        },
+        {
+          "paragraph": "4. Utilizar as folhas: Não jogue fora as folhas da beterraba, pois elas são ricas em nutrientes e podem ser utilizadas em diversas receitas, como saladas, sopas e refogados. As folhas devem ser armazenadas em um saco plástico perfurado na geladeira e consumidas dentro de alguns dias."
+        },
+        {
+          "paragraph": "Ao seguir essas dicas simples, você poderá conservar a beterraba por mais tempo e evitará o desperdício. Além disso, aproveitará ao máximo todos os nutrientes e sabores desse vegetal tão versátil e saudável."
+        }
+      ],
+      "slug": "Como-conservar-beterraba"
+    },
+    {
+      "id": "2d9e9c63-16e8-448d-8e52-947efc83302f",
+      "title": "Diga não ao desperdício! Veja dicas e receitas para reaproveitar cascas de batatas e outros vegetais",
+      "date": "10/03/2023",
+      "timeStamp": 1678495530,
+      "imageURL": "https://images.unsplash.com/photo-1604300721398-3f58fdf81780?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "author": "Matheus Porto",
+      "content": [
+        {
+          "paragraph": "O desperdício de alimentos é um problema que afeta não apenas o meio ambiente, mas também a economia doméstica. Para evitar o desperdício, é importante reaproveitar ao máximo todos os ingredientes, incluindo as cascas de batatas e outros vegetais. Confira a seguir algumas dicas e receitas para reaproveitar cascas de batatas e outros vegetais:"
+        },
+        {
+          "subtitle": "1. Chips de casca de batata:",
+          "paragraph": "Lave bem as batatas e retire as cascas. Em seguida, corte as cascas em tiras finas e tempere com sal, pimenta e azeite. Coloque as tiras em uma assadeira e leve ao forno preaquecido a 200°C por cerca de 20 minutos, ou até que fiquem crocantes. Sirva como petisco ou acompanhamento."
+        },
+        {
+          "subtitle": "2. Sopa de casca de legumes:",
+          "paragraph": "As cascas de legumes, como cenoura, abóbora e batata, podem ser utilizadas para preparar uma sopa deliciosa e nutritiva. Basta lavar bem as cascas, refogá-las com cebola e alho, adicionar água e temperos a gosto e deixar cozinhar por cerca de 30 minutos. Depois, bata a sopa no liquidificador e sirva quente."
+        },
+        {
+          "subtitle": "3. Farofa de casca de legumes:",
+          "paragraph": "As cascas de legumes também podem ser utilizadas para preparar uma farofa saborosa e crocante. Basta lavar bem as cascas, picá-las em pedaços pequenos e refogá-las com cebola e alho. Adicione farinha de mandioca e tempere com sal, pimenta e ervas a gosto. Misture bem e sirva como acompanhamento."
+        },
+        {
+          "subtitle": "4. Caldo de legumes:",
+          "paragraph": "As cascas e outras partes de legumes que normalmente descartamos, como as pontas de cenoura e as folhas de brócolis, podem ser utilizadas para preparar um caldo de legumes saboroso e nutritivo. Basta lavar bem os ingredientes, colocá-los em uma panela com água e deixar cozinhar por cerca de 1 hora. Depois, coe o caldo e utilize em receitas diversas."
+        },
+        {
+          "paragraph": "Ao reaproveitar as cascas de batatas e outros vegetais, você estará contribuindo para a redução do desperdício de alimentos e aproveitando ao máximo todos os nutrientes e sabores que eles têm a oferecer. Experimente as dicas e receitas acima e descubra novas maneiras de aproveitar ao máximo todos os ingredientes da sua cozinha."
+        }
+      ],
+      "slug": "Diga-não-ao-desperdício-receitas-para-reaproveitar-cascas-vegetais"
+    },
+    {
+      "id": "fd86f2e2-2385-4e6d-a90c-5b6a5cb6d651",
+      "title": "Energia solar: uma alternativa sustentável e econômica para sua casa",
+      "date": "11/03/2023",
+      "timeStamp": 1678555950,
+      "imageURL": "https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80",
+      "author": "Matheus Porto",
+      "content": [
+        {
+          "paragraph": "A energia solar tem se mostrado cada vez mais uma alternativa viável e sustentável para a produção de energia elétrica. Além de ser uma fonte limpa e renovável, a energia solar também pode gerar economia na conta de luz e valorizar o imóvel. Confira a seguir como funciona a energia solar e como ela pode ser aproveitada em sua casa."
+        },
+        {
+          "paragraph": "A energia solar é produzida por meio da captação da luz do sol por painéis solares, que convertem a energia em eletricidade por meio de células fotovoltaicas. A eletricidade gerada pode ser utilizada imediatamente ou armazenada em baterias para uso posterior. Para aproveitar a energia solar em sua casa, é necessário instalar um sistema de painéis solares conectado à rede elétrica da sua cidade."
+        },
+        {
+          "paragraph": "O investimento em energia solar pode parecer alto em um primeiro momento, mas os benefícios a longo prazo compensam o custo inicial. Além da economia na conta de luz, a instalação de painéis solares pode aumentar o valor de revenda do imóvel e ajudar a reduzir a emissão de gases de efeito estufa. Além disso, existem opções de financiamento e incentivos governamentais que podem tornar o investimento ainda mais acessível."
+        },
+        {
+          "paragraph": "É importante lembrar que a energia solar não é uma opção viável para todas as casas e regiões. É necessário avaliar o potencial de captação de energia solar na sua região e as condições climáticas locais antes de investir em um sistema de painéis solares. Além disso, é necessário contar com profissionais especializados na instalação e manutenção do sistema para garantir a eficiência e segurança do sistema."
+        },
+        {
+          "paragraph": "Em resumo, a energia solar é uma alternativa sustentável e econômica para a produção de energia elétrica em sua casa. Ao investir em um sistema de painéis solares, você estará contribuindo para o meio ambiente e reduzindo os custos da sua conta de luz. Consulte profissionais especializados e avalie as opções disponíveis na sua região para aproveitar ao máximo os benefícios da energia solar."
+        }
+      ],
+      "slug": "energia-solar-alternativa-sustentavel"
+    },
+    {
+      "id": "35f2d1ea-f955-4a50-bf31-98bbd0b901a1",
+      "title": "A importância da reciclagem para o meio ambiente",
+      "date": "16/03/2023",
+      "timeStamp": 1678976910,
+      "imageURL": "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "content": [
+        {
+          "paragraph": "A reciclagem é um dos principais processos para preservar o meio ambiente e garantir a sustentabilidade do planeta. Além de contribuir para a redução do volume de lixo produzido, a reciclagem também pode gerar economia de recursos naturais e energia. Confira a seguir a importância da reciclagem para o meio ambiente e como você pode colaborar para essa prática."
+        },
+        {
+          "paragraph": "A reciclagem é um processo que consiste em transformar materiais usados em novos produtos, reduzindo a quantidade de resíduos que seriam descartados no meio ambiente. Entre os materiais que podem ser reciclados, destacam-se o papel, plástico, vidro, metal e tecido. Além disso, a reciclagem também pode incluir a compostagem de resíduos orgânicos, que são transformados em adubo para serem utilizados na agricultura."
+        },
+        {
+          "paragraph": "Além de reduzir a quantidade de resíduos descartados no meio ambiente, a reciclagem também pode gerar economia de recursos naturais e energia. A produção de materiais reciclados consome menos energia do que a produção de materiais novos, o que reduz a emissão de gases de efeito estufa. Além disso, a reciclagem também pode reduzir a extração de recursos naturais, como madeira e minérios."
+        },
+        {
+          "paragraph": "Para colaborar com a reciclagem, é importante separar corretamente os resíduos que podem ser reciclados. Em muitas cidades, já existem coletas seletivas que facilitam a separação dos materiais. Além disso, é importante dar preferência a produtos reciclados e incentivar empresas a adotarem práticas sustentáveis em suas produções."
+        },
+        {
+          "paragraph": "Em resumo, a reciclagem é uma prática fundamental para preservar o meio ambiente e garantir a sustentabilidade do planeta. Ao separar corretamente os materiais recicláveis e incentivar empresas a adotarem práticas sustentáveis, estamos contribuindo para um futuro mais limpo e saudável para todos."
+        }
+      ],
+      "author": "Matheus Porto",
+      "slug": "importancia-reciclagem-para-meio-ambiente"
+    },
+    {
+      "id": "c064cc15-df13-41c8-9e9c-2b28356275e3",
+      "title": "Proteinas Vegetais: Tire as principais dúvidas a respeito do produto de origem orgânica",
+      "date": "22/03/2023",
+      "timeStamp": 1679497410,
+      "imageURL": "https://images.unsplash.com/photo-1621878974676-a41806cc9ed1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "author": "Matheus Porto",
+      "content": [
+        {
+          "paragraph": "As proteínas vegetais são uma alternativa saudável e sustentável para quem busca uma alimentação equilibrada e com menos impacto no meio ambiente. Mas, ainda há muitas dúvidas em relação a esse produto de origem orgânica. Confira a seguir as principais dúvidas sobre as proteínas vegetais e saiba como incluí-las em sua alimentação."
+        },
+        {
+          "subtitle": "O que são proteínas vegetais?",
+          "paragraph": "As proteínas vegetais são extraídas de fontes como ervilha, soja, arroz e grão-de-bico, entre outras. Elas são uma alternativa às proteínas de origem animal e podem ser utilizadas em diversos tipos de preparações, como shakes, barras de proteína, pães, bolos, massas e salgados."
+        },
+        {
+          "subtitle": "Quais são os benefícios das proteínas vegetais?",
+          "paragraph": "As proteínas vegetais são ricas em nutrientes essenciais para o organismo, como aminoácidos, vitaminas, minerais e fibras. Além disso, elas possuem baixo teor de gordura saturada e colesterol, o que contribui para a prevenção de doenças cardiovasculares. Outra vantagem das proteínas vegetais é que elas são produzidas de forma mais sustentável do que as proteínas de origem animal."
+        },
+        {
+          "subtitle": "Como incluir as proteínas vegetais na alimentação?",
+          "paragraph": "As proteínas vegetais podem ser incluídas na alimentação de diversas formas, como substituindo a carne em alguns pratos, acrescentando em receitas de massas, pães e bolos, e consumindo barras ou shakes de proteína. É importante lembrar que, assim como as proteínas de origem animal, as proteínas vegetais devem ser consumidas de forma equilibrada, respeitando as necessidades nutricionais de cada indivíduo."
+        },
+        {
+          "paragraph": "Em resumo, as proteínas vegetais são uma alternativa saudável e sustentável para quem busca uma alimentação equilibrada e com menos impacto no meio ambiente. Ao incluí-las em sua dieta, você estará contribuindo para a preservação do planeta e para a sua saúde."
+        }
+      ],
+      "slug": "proteinas-vegetais-duvidas-e-respostas"
+    }
+  ],
+  "productsPreview": [
+    {
+      "id": "4a357916-77a9-4f79-a8cc-4e42cd5d9e56",
+      "imageURL": "https://images.unsplash.com/photo-1541377391972-03ee2fe4c4a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "name": "Veganismo Acessível - Volume 1",
+      "price": 3525,
+      "link": "https://www.amazon.com.br/50-petiscos-veganos-Del%C3%ADcias-saborear/dp/8578815009/ref=sr_1_3?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=livro+receita+vegana&sr=8-3",
+      "category": "books"
+    },
+    {
+      "id": "51660dd7-3781-4a1c-87ae-d59beafb0c39",
+      "imageURL": "https://images.unsplash.com/photo-1635229359901-e09888484b0e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
+      "name": "Frigideira Antiaderente GreenGo",
+      "price": 3525,
+      "link": "https://www.amazon.com.br/50-petiscos-veganos-Del%C3%ADcias-saborear/dp/8578815009/ref=sr_1_3?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=livro+receita+vegana&sr=8-3",
+      "category": "utensils"
+    },
+    {
+      "id": "a0394a9f-f548-4506-97f8-abaa6d5755da",
+      "imageURL": "https://images.unsplash.com/photo-1485091466790-3735fe896408?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "name": "Xícara Cerâmica RedTown",
+      "price": 3525,
+      "link": "https://www.amazon.com.br/50-petiscos-veganos-Del%C3%ADcias-saborear/dp/8578815009/ref=sr_1_3?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=livro+receita+vegana&sr=8-3",
+      "category": "ceramics"
+    },
+    {
+      "id": "9be5ffa7-c83f-4025-954f-6ea26eb2bb1a",
+      "imageURL": "https://images.unsplash.com/photo-1627907228175-2bf846a303b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+      "name": "Veganismo Acessível - Volume 2",
+      "price": 3525,
+      "link": "https://www.amazon.com.br/50-petiscos-veganos-Del%C3%ADcias-saborear/dp/8578815009/ref=sr_1_3?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=livro+receita+vegana&sr=8-3",
+      "category": "books"
+    },
+    {
+      "id": "8df5ed40-f5cf-4683-9973-48ca85f7d13c",
+      "imageURL": "https://images.unsplash.com/photo-1542010589005-d1eacc3918f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=892&q=80",
+      "name": "Veganismo Acessível - Volume 3",
+      "price": 3525,
+      "link": "https://www.amazon.com.br/50-petiscos-veganos-Del%C3%ADcias-saborear/dp/8578815009/ref=sr_1_3?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=livro+receita+vegana&sr=8-3",
+      "category": "books"
+    },
+    {
+      "id": "dffba2c7-f490-4a06-bb78-68adc2934bd0",
+      "imageURL": "https://images.unsplash.com/photo-1518744386442-2d48ac47a7eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "name": "Veganismo Acessível - Volume 4",
+      "price": 3525,
+      "link": "https://www.amazon.com.br/50-petiscos-veganos-Del%C3%ADcias-saborear/dp/8578815009/ref=sr_1_3?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=livro+receita+vegana&sr=8-3",
+      "category": "books"
+    }
+  ],
+  "accounts": [
+    {
+      "id": "fc3365ca-2a83-4631-8929-6a1580ac4bd0",
+      "email": "teste.carlos@gmail.com",
+      "password": "12345678",
+      "userName": "Carlos Eduardo",
+      "profilePicture": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+    },
+    {
+      "id": "85391858-775a-42d2-a416-c3f250cac49e",
+      "email": "teste.olga@gmail.com",
+      "password": "12345678",
+      "userName": "Olga Silva",
+      "profilePicture": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+      "id": "c28b94e7-0616-487f-b416-d0969e3ae6a3",
+      "email": "teste.icaro@gmail.com",
+      "password": "12345678",
+      "userName": "Icaro",
+      "profilePicture": "https://images.unsplash.com/photo-1584999734482-0361aecad844?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+    },
+    {
+      "userName": "Matheus Porto De Alencar",
+      "email": "matporto03@gmail.com",
+      "password": "123456",
+      "id": "298a2bcb-58a3-48f5-9b1d-7dc4d7d25e1f"
+    }
+  ]
+}
