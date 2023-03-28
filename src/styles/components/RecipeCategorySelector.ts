@@ -53,6 +53,10 @@ export const RecipesContainer = styled('div', {
   marginBottom: '3.75rem',
   justifyContent: 'center',
 
+  '@sm': {
+    gridTemplateColumns: 'minmax(auto, 22.5rem)'
+  },
+
   background: '$gray100',
   boxShadow: '0px 0px 0px 20px #E6EDE1',
   borderRadius: 5,

@@ -6,7 +6,13 @@ export const FooterContainer = styled('footer', {
     maxWidth: '72.5rem',
     width: '100%',
     margin: '0 auto',
-    padding: '2.5rem 0',  
+    padding: '2.5rem 0',
+    
+    '@lg': {
+      maxWidth: '100%',
+      width: 'auto',
+      margin: '0 1rem'
+    }
   },
 
   '& > p': {
@@ -20,7 +26,8 @@ export const FooterContainer = styled('footer', {
 
 export const FooterContact = styled('div', {
   display: 'flex',
-  justifyContent: 'space-between',
+  gap: '2.5rem',
+  justifyContent: 'center',
   alignItems: 'center',
   marginBottom: '2.5rem',
   flexWrap: 'wrap',
@@ -38,7 +45,6 @@ export const FooterContact = styled('div', {
 
     form: {
       display: 'flex',
-      flexWrap: 'wrap',
 
       input: {
         flex: 1,
@@ -92,6 +98,8 @@ export const FooterContact = styled('div', {
     div: {
       display: 'flex',
       gap: '2.5rem',
+      flexWrap: 'wrap',
+      justifyContent: 'center',
 
       a: {
         transition: 'all 0.2s',

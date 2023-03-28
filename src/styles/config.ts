@@ -33,7 +33,7 @@ export const {
     }
   },
   media: {
-    sm: '(max-width: 640px)',
+    sm: '(max-width: 620px)',
     md: '(max-width: 760px)',
     lg: '(max-width: 1160px)',
   },

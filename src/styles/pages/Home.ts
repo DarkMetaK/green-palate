@@ -35,6 +35,9 @@ export const PostsContainer = styled('article', {
     '@md': {
       gridTemplateColumns: '1fr 1fr'
     },
+    '@sm': {
+      gridTemplateColumns: 'minmax(auto, 22.5rem)'
+    },
 
     a: {
       background: '$white',
@@ -53,6 +56,7 @@ export const PostsContainer = styled('article', {
 
       '@md': {
         maxWidth: '22.5rem',
+        width: '100%',
         display: 'flex',
         flexDirection: 'column',
         img: {
@@ -141,6 +145,16 @@ export const StoreContainer = styled('div', {
     width: '100%',
     margin: '0 auto',
     padding: '2.5rem 0 5rem 0',
+
+    '@lg': {
+      maxWidth: '100%',
+      width: 'auto',
+      margin: '0 1rem',
+
+      h2: {
+        textAlign: 'center'
+      }
+    },
 
     h2: {
       fontSize: '1.5rem',

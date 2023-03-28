@@ -7,6 +7,10 @@ export const StoreCategorySelectorContainer = styled('div', {
   gap: '2.5rem',
   margin: '0 0',
 
+  '@sm': {
+    gridTemplateColumns: 'minmax(auto, 22.5rem)'
+  },
+
   a: {
     borderRadius: 5,
     
