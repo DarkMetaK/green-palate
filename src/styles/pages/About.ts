@@ -6,11 +6,26 @@ export const AboutContainer = styled('main', {
   margin: '0 auto 5rem auto',
 
   display: 'flex',
+  flexWrap: 'wrap',
+  gap: '1.25rem',
   justifyContent: 'space-between',
 
   'h1, h2': {
     fontSize: '1.5rem',
     textTransform: 'uppercase'
+  },
+
+  '@lg': {
+    maxWidth: '100%',
+    width: 'auto',
+    margin: '0 1rem 5rem 1rem',
+    img: {
+      width: '100%'
+    }
+  },
+
+  '@sm': {
+    paddingTop: '9.5rem'
   },
 
   div: {
@@ -30,7 +45,7 @@ export const AboutContainer = styled('main', {
 
 export const WhoWeAreContainer = styled('div', {
   backgroundColor: '$gray100',
-  padding: '2.5rem 0',
+  padding: '2.5rem 2.5rem',
 
   'div.info': {
     maxWidth: '72.5rem',
@@ -61,6 +76,7 @@ export const ProfilePictures = styled('div', {
   display: 'flex',
   gap: '2.5rem',
   flexWrap: 'wrap',
+  justifyContent: 'center',
 
   'div.user': {
     display: 'flex',
@@ -91,18 +107,42 @@ export const MissionContainer = styled('div', {
   alignItems: 'center',
   width: 'fit-content',
   margin: '5rem auto',
+  padding: '0 1rem',
 
-  h2: {
+  '@md': {
+    flexDirection: 'column',
+    gap: '1.25rem',
+
+    'h2.onerow': {
+      display: 'none',
+      flexBasis: 0
+    },
+    'h2.oneline': {
+      display: 'block !important'
+    }
+  },
+
+  'h2.onerow': {
     fontSize: '6rem',
     textAlign: 'center',
     color: '$gray150',
+  },
+
+  'h2.oneline': {
+    display: 'none',
+    flexBasis: 0,
+    fontSize: '3rem',
+    textAlign: 'left',
+    color: '$gray150',
+    width: '100%'
   },
 
   '& > div': {
     alignSelf: 'stretch',
     display: 'flex',
     flexDirection: 'column',
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
+    gap: '2.5rem'
   },
 
   'div.mission': {
@@ -111,6 +151,13 @@ export const MissionContainer = styled('div', {
     gap: '0.75rem',
     alignSelf: 'stretch',
     justifyContent: 'space-between',
+
+    '@md': {
+      gap: '0.5rem',
+      h3: {
+        fontSize: '1.5rem !important'
+      }
+    },
 
     h3: {
       fontSize: '3rem',
@@ -126,7 +173,7 @@ export const MissionContainer = styled('div', {
 
 export const ContactForm = styled('div', {
   backgroundColor: '$gray100',
-  padding: '2.5rem 0',
+  padding: '2.5rem 1rem',
 
   h2: {
     fontSize: '3rem',

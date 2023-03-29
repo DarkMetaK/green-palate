@@ -92,7 +92,8 @@ export default function About() {
         </ProfilePictures>
       </WhoWeAreContainer>
       <MissionContainer>
-        <h2>M<br/>I<br/>S<br/>S<br/>Ã<br/>O</h2>
+        <h2 className='onerow'>M<br/>I<br/>S<br/>S<br/>Ã<br/>O</h2>
+        <h2 className='oneline'>MISSÃO</h2>
         <div>
           <div className='mission'>
             <h3>Conectar Pessoas</h3>

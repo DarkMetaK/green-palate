@@ -9,6 +9,23 @@ export const LoginContainer = styled('main', {
   gridTemplateColumns: '1fr 1fr',
   gap: '2.5rem',
 
+  '@lg': {
+    maxWidth: '100%',
+    width: 'auto',
+    margin: '0 1rem 5rem 1rem'
+  },
+
+  '@md': {
+    gridTemplateColumns: '1fr',
+    img: {
+      width: '100%'
+    }
+  },
+
+  '@sm': {
+    paddingTop: '9.5rem'
+  },
+
   h1: {
     fontSize: '1.5rem',
     textTransform: 'uppercase',
