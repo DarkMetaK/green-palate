@@ -47,7 +47,7 @@ export default function Blog({posts}: IBlog) {
         <div className="posts">
           <h2>Últimos Posts</h2>
           <div>
-            {postsToDisplay.map(item => 
+            {postsToDisplay?.map(item => 
             <PostsDisplay
               key={item.id}
               id={item.id}

@@ -143,7 +143,7 @@ export function RecipeCategorySelector({recipesResumed}: IRecipeCategorySelector
       {
       recipesOfSelectedCategory?.length ?
       (<>
-        {recipesOfSelectedCategory.map((recipe) => 
+        {recipesOfSelectedCategory?.map((recipe) => 
         <RecipeDisplay key={recipe.id}
           recipeId={recipe.id}
           imageURL={recipe.imageUrl}

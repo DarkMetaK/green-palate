@@ -32,7 +32,7 @@ export default function RecipeSearch({postsResult}: IRecipeSearch) {
     <p>{`${postsResult.length} resultados para '${query}'`}</p>
       <div>
       {
-        postsResult.map(item => 
+        postsResult?.map(item => 
         <PostsDisplay key={item.id}
           id={item.id}
           imageURL={item.imageURL}

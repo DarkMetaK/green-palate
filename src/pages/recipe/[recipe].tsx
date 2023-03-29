@@ -93,11 +93,11 @@ export default function Recipe(props : IRecipeData) {
             <div className='rating'>
               <div className='stars'>
                 {
-                  fullStarsAmount.map((item) => item)
+                  fullStarsAmount?.map((item) => item)
                 }
                 {halfStar && <StarHalf size={32} weight='fill'/>}
                 {
-                  emptyStarsAmount.map((item) => item)
+                  emptyStarsAmount?.map((item) => item)
                 }
               </div>
               <p>Avalie essa receita</p>

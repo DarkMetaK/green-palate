@@ -23,7 +23,7 @@ export default function Store({mostSelledItems}: IStore) {
       <h2>Mais Vendidos</h2>
       <GridStoreContainerMostSelled>
         {mostSelledItems.length ? 
-          mostSelledItems.map(item => 
+          mostSelledItems?.map(item => 
             <ProductDisplay
               key={item.id}
               price={item.price}

@@ -57,7 +57,7 @@ export default function Carousel ({posts}: ICarousel) {
 
   return (
     <CarouselContainer ref={sliderRef} className='keen-slider'>
-      {posts.map(item => (
+      {posts?.map(item => (
         <PostCaroulseItem key={item.id} className='keen-slider__slide' href={`/blog/post/${item.slug}`}>
           <Image
             src={item.imageURL}
@@ -73,7 +73,7 @@ export default function Carousel ({posts}: ICarousel) {
       ))}
 
       <ButtonsCarousel>
-        {Array.from(Array(posts.length).keys()).map((index) => (
+        {Array.from(Array(posts.length).keys())?.map((index) => (
           <button
             key={index}
             onClick={() => {

@@ -1,4 +1,4 @@
-import { useContext } from 'react';
+import { useContext, useEffect } from 'react';
 import { useRouter } from 'next/router';
 
 import { AuthContext } from '@/context/auth';
@@ -9,7 +9,11 @@ export default function Account() {
   const router = useRouter()
   const { isLoggedIn, user, handleSignOut } = useContext(AuthContext)
 
-  if (!isLoggedIn) router.push('/account/login')
+  useEffect(() => {
+    if (!isLoggedIn) {
+      router.push('/account/login')
+    }
+  }, [isLoggedIn, router])
 
   function handleSignOutClick() {
     handleSignOut()

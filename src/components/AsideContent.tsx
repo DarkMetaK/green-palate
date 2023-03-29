@@ -89,7 +89,7 @@ export function AsideContent({includeProducts=false, includePostSearch=false}: I
             <hr />
           </span>
           <div>
-            {topRecipesResumed.map(item => 
+            {topRecipesResumed?.map(item => 
             <RecipeDisplay
               key={item.id}
               imageURL={item.imageUrl}
@@ -112,7 +112,7 @@ export function AsideContent({includeProducts=false, includePostSearch=false}: I
             <hr />
           </span>
           <div>
-            {topProducts.map(item => 
+            {topProducts?.map(item => 
             <ProductDisplay
               key={item.id}
               price={item.price}

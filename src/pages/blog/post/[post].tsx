@@ -54,7 +54,7 @@ export default function Post({
         </GeneralInfoContainer>
         <ContentContainer>
           {
-            content.map(item => item.subtitle ? (
+            content?.map(item => item.subtitle ? (
               <div key={item.paragraph}>
                 <h2>{item.subtitle}</h2>
                 <p>{item.paragraph}</p>

@@ -120,7 +120,7 @@ export default function RecipeCategory({recipesFilteredByCategory, topTenRecipes
       <p>{recipesFilteredByCategory.length} resultados</p>
       <div>
       {
-        recipesToDisplay.map(recipe => 
+        recipesToDisplay?.map(recipe => 
         <RecipeDisplay key={recipe.id}
           recipeId={recipe.id}
           imageURL={recipe.imageUrl}
@@ -154,7 +154,7 @@ export default function RecipeCategory({recipesFilteredByCategory, topTenRecipes
         </button>
         <div ref={sliderRef} className='keen-slider'>
           {
-            topTenRecipes.map(recipe => 
+            topTenRecipes?.map(recipe => 
             <RecipeDisplay key={recipe.id}
               recipeId={recipe.id}
               imageURL={recipe.imageUrl}
@@ -176,7 +176,7 @@ export default function RecipeCategory({recipesFilteredByCategory, topTenRecipes
     <RecipeBooks>
       <h2>Confira nossos livros de receitas</h2>
       <div>
-        {books.map(item => 
+        {books?.map(item => 
         <ProductDisplay
           key={item.id}
           price={item.price}

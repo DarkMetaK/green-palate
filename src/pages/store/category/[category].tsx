@@ -33,7 +33,7 @@ export default function StoreCategory({productsByCategory}: IStore) {
       <h1>{`Loja - ${categoryTranslated[category]}`}</h1>
       <GridStoreCategory>
         {productsByCategory.length ? 
-          productsByCategory.map(item => 
+          productsByCategory?.map(item => 
             <ProductDisplay
               key={item.id}
               price={item.price}

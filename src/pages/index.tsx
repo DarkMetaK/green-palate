@@ -62,7 +62,7 @@ export default function Home({recipesResumed, postsResumed, topProducts}: IHome)
               <>
               <div className='posts'>
                 {
-                postsResumed.map(item => (
+                postsResumed?.map(item => (
                   <Link href={`/blog/post/${item.slug}`} key={item.id}>
                     <Image
                       src={item.imageURL}
@@ -120,7 +120,7 @@ export default function Home({recipesResumed, postsResumed, topProducts}: IHome)
               <hr />
             </div>
             {topProducts?.length ? 
-            topProducts.map((item) => 
+            topProducts?.map((item) => 
             <ProductDisplay
               key={item.id}
               productImage={item.imageURL}
