@@ -2,7 +2,12 @@ import Link from 'next/link';
 import { styled } from '../config';
 
 export const CarouselContainer = styled('div', {
-  maxWidth: '47.5rem !important'
+  maxWidth: '47.5rem !important',
+  width: '100%',
+
+  '@md': {
+    display: 'none !important'
+  }
 })
 
 export const PostCaroulseItem = styled(Link, {

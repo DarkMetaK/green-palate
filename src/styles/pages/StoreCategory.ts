@@ -10,6 +10,16 @@ export const StoreCategoryContainer = styled('main', {
     marginBottom: '1.25rem',
     fontSize: '1.5rem'
   },
+
+  '@lg': {
+    maxWidth: '100%',
+    width: 'auto',
+    margin: '0 1rem'
+  },
+
+  '@sm': {
+    paddingTop: '9.5rem'
+  },
 })
 
 export const GridStoreCategory = styled('div', {
@@ -19,6 +29,7 @@ export const GridStoreCategory = styled('div', {
   display: 'grid',
   gridTemplateColumns: 'repeat(auto-fit, 16.25rem)',
   gap: '2.5rem',
+  justifyContent: 'center',
 
   '& > h2': {
     textAlign: 'left',

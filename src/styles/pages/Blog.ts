@@ -17,6 +17,20 @@ export const BlogContainer = styled('div', {
     marginBottom: '1.25rem',
     gridColumn: '1 / -1'
   },
+
+  '@lg': {
+    maxWidth: '100%',
+    width: 'auto',
+    margin: '0 1rem 5rem 1rem'
+  },
+
+  '@md': {
+    gridTemplateColumns: '1fr'
+  },
+
+  '@sm': {
+    paddingTop: '9.5rem'
+  },
 })
 
 export const BlogMainContent = styled('main', {
@@ -31,7 +45,7 @@ export const BlogMainContent = styled('main', {
 
     '& > div': {
       display: 'grid',
-      gridTemplateColumns: 'repeat(auto-fit, minmax(22.5rem, 1fr))',
+      gridTemplateColumns: 'repeat(auto-fit, minmax(16.25rem, 1fr))',
       gap: '2.5rem',
       
       'div.btn': {

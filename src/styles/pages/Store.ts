@@ -5,6 +5,16 @@ export const StoreContainer = styled('main', {
   width: '100%',
   margin: '0 auto',
 
+  '@lg': {
+    maxWidth: '100%',
+    width: 'auto',
+    margin: '0 1rem'
+  },
+
+  '@sm': {
+    paddingTop: '9.5rem'
+  },
+
   h1: {
     textTransform: 'uppercase',
     marginBottom: '1.25rem',
@@ -25,6 +35,7 @@ export const GridStoreContainerMostSelled = styled('div', {
   display: 'grid',
   gridTemplateColumns: 'repeat(auto-fit, 16.25rem)',
   gap: '2.5rem',
+  justifyContent: 'center',
 
   '& > h2': {
     textAlign: 'left',
