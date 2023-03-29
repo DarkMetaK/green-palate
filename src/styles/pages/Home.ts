@@ -9,6 +9,10 @@ export const HomeContainer = styled('main', {
     maxWidth: '100%',
     width: 'auto',
     margin: '0 1rem'
+  },
+
+  '@sm': {
+    paddingTop: '9.5rem'
   }
 })
 

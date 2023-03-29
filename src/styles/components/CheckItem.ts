@@ -16,6 +16,7 @@ export const CheckItemContainer = styled('div', {
 })
 
 export const CheckBoxRoot = styled(Checkbox.Root, {
+  flexShrink: 0,
   backgroundColor: '$gray50',
   width: '2rem',
   height: '2rem',

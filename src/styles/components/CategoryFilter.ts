@@ -5,6 +5,7 @@ export const CategoryFilterContainer = styled('form', {
   '&:focus': {
     boxShadow: '0px 0px 0px black !important'
   },
+  padding: '1.25rem'
 })
 
 export const RadioGroupRoot = styled(RadioGroup.Root, {

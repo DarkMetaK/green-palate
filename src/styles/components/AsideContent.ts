@@ -8,6 +8,11 @@ export const AsideContentContainer = styled('aside', {
   flexDirection: 'column',
   gap: '5rem',
 
+  '@md': {
+    display: 'none',
+    flexBasis: '0 !important'
+  },
+
   h3: {
     textTransform: 'uppercase'
   },

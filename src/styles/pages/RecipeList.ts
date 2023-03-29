@@ -6,6 +6,10 @@ export const RecipeListContainer = styled('main', {
   width: '100%',
   margin: '0 auto',
 
+  '@sm': {
+    paddingTop: '9.5rem'
+  },
+
   h1: {
     margin: '2.5rem 0 1.25rem 0',
     textTransform: 'uppercase',
@@ -17,7 +21,13 @@ export const RecipeListContainer = styled('main', {
     flexDirection: 'column',
     gap: '1.25rem',
     marginBottom: '2.5rem',
-  }
+  },
+
+  '@lg': {
+    maxWidth: '100%',
+    width: 'auto',
+    margin: '0 1rem'
+  },
 })
 
 export const DialogOverlay = styled(Dialog.Overlay, {
@@ -45,7 +55,7 @@ export const DialogContent = styled(Dialog.Content, {
 export const RecipesList = styled('div', {
   width: '100%',
   background: '$gray100',
-  padding: '1.25rem 0 2.5rem 0',
+  padding: '1.25rem 1.25rem 2.5rem 1.25rem',
 
   display: 'flex',
   flexDirection: 'column',
@@ -66,7 +76,12 @@ export const RecipesList = styled('div', {
 
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fit, 16.25rem)',
-    gap: '2.5rem', 
+    gap: '2.5rem',
+    justifyContent: 'center',
+
+    '@sm': {
+      gridTemplateColumns: 'minmax(auto, 22.5rem)'
+    },
   }
 })
 
@@ -78,15 +93,26 @@ export const RecipesTopTen = styled('div', {
     fontSize: '1.5rem',
     maxWidth: '72.5rem',
     width: '100%',
-    margin: '0 auto 1.25rem auto'
+    margin: '0 auto 1.25rem auto',
+
+    '@sm': {
+      textAlign: 'center'
+    },
   }
 })
 
 export const RecipesCarousel = styled('div', {
   display: 'flex',
   gap: '1.25rem',
-  width: 'fit-content',
+  maxWidth: 'fit-content',
+  width: '100%',
   margin: '0 auto',
+
+  a: {
+    maxWidth: '22.5rem !important',
+    width: '100% !important',
+    minWidth: '16.25rem'
+  },
 
   '& > button': {
     background: 'none',
@@ -116,13 +142,23 @@ export const RecipeBooks = styled('div', {
   h2: {
     textTransform: 'uppercase',
     fontSize: '1.5rem',
-    marginBottom: '1.25rem'
+    marginBottom: '1.25rem',
+    '@sm': {
+      textAlign: 'center'
+    },
   },
 
   '& > div': {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fit, 16.25rem)',
     gap: '2.5rem',
+    justifyContent: 'center',
+
+    '@lg': {
+      maxWidth: '100%',
+      width: 'auto',
+      margin: '0 1rem'
+    },
 
     a: {
       background: '$gray100'

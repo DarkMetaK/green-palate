@@ -9,7 +9,8 @@ export const HeaderContainer = styled('header', {
   marginBottom: '2.5rem',
 
   '@sm': {
-    position: 'fixed'
+    position: 'fixed',
+    zIndex: 1000
   },
 
   '& > div': {
@@ -51,42 +52,11 @@ export const HeaderContainer = styled('header', {
   }
 })
 
-export const SideNav = styled('div', {
-  width: 0,
-  '#overlay': {
-    width: '100%',
-    height: '100%',
-    content: '',
-    background: 'rgba(0,0,0,.1)',
-    zIndex: 1000
-  },
-  '#sidenavContent': {
-    height: '100%', 
-    maxWidth: 260,
-    width: '100%',
-    position: 'fixed',
-    zIndex: 2000,
-    top: 0,
-    left: 0,
-    backgroundColor: '$white',
-    overflowX: 'hidden',
-    paddingTop: 60,
-    transition: '0.5s',    
-  },
-  a: {
-    fontSize: '1.125rem',
-    transition: 'color 0.2s',
-    borderRadius: 5,
-    '&:hover': {
-      color: '$lightGreen'
-    }
-  }
-})
-
 export const DialogOverlay = styled(Dialog.Overlay, {
   backgroundColor: 'rgba(0,0,0,.1)',
   position: 'fixed',
   inset: 0,
+  zIndex: 2000
 })
 
 export const DialogTrigger = styled(Dialog.Trigger, {
@@ -127,6 +97,7 @@ export const DialogContent = styled(Dialog.Content, {
   width: '100%',
   height: '100%',
   padding: '1.5rem',
+  zIndex: 9999,
 
   animation: `${slideIn} 0.5s ease-in-out`,
   backgroundColor: '$white',

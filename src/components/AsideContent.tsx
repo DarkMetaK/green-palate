@@ -54,7 +54,7 @@ export function AsideContent({includeProducts=false, includePostSearch=false}: I
     catch (error) {
       console.log('Erro ao buscar receitas\n' + error)
     }
-  
+
     try {
       const topProducts = await (await api.get('/productsPreview?_limit=3')).data
       setTopProducts(topProducts)

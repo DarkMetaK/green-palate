@@ -55,7 +55,7 @@ export default function RecipeCategory({recipesFilteredByCategory, topTenRecipes
   const [sliderRef, instanceRef] = useKeenSlider(
     {
       slides: {
-        perView: 4,
+        perView: 'auto',
         origin: 'auto',
         spacing: 40
       },

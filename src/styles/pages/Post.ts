@@ -11,6 +11,20 @@ export const PostContainer = styled('div', {
 
   marginBottom: '5rem',
 
+  '@lg': {
+    maxWidth: '100%',
+    width: 'auto',
+    margin: '0 1rem 5rem 1rem'
+  },
+
+  '@md': {
+    gridTemplateColumns: '1fr'
+  },
+
+  '@sm': {
+    paddingTop: '9.5rem'
+  },
+
   'div.other': {
     marginTop: '5rem',
     'div.title': {
@@ -77,6 +91,7 @@ export const ContentContainer = styled('div', {
 
 export const OtherPostsContainer = styled('div', {
   display: 'grid',
-  gridTemplateColumns: '1fr 1fr',
+  gridTemplateColumns: 'repeat(auto-fit, minmax(21.5rem, 1fr))',
   gap: '2.5rem',
+  justifyContent: 'center'
 })

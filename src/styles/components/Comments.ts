@@ -10,6 +10,12 @@ export const CommentsSection = styled('div', {
     width: '100%',
     margin: '0 auto',
 
+    '@lg': {
+      maxWidth: '100%',
+      width: 'auto',
+      margin: '0 1rem'
+    },
+
     h2: {
       fontSiz: '1.25rem',
       fontWeight: 700,

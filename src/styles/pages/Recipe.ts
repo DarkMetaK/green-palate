@@ -4,6 +4,16 @@ export const RecipeContainer = styled('main', {
   maxWidth: '72.5rem',
   width: '100%',
   margin: '0 auto',
+
+  '@lg': {
+    maxWidth: '100%',
+    width: 'auto',
+    margin: '0 1rem'
+  },
+
+  '@sm': {
+    paddingTop: '9.5rem'
+  }
 })
 
 export const RecipeInformationContainer = styled('div', {
@@ -11,6 +21,7 @@ export const RecipeInformationContainer = styled('div', {
   gap: '2.5rem',
   flexWrap: 'wrap',
   alignItems: 'center',
+  justifyContent: 'center',
 
   'div.photo': {
     maxWidth: '35rem',
@@ -19,7 +30,10 @@ export const RecipeInformationContainer = styled('div', {
       objectFit: 'cover',
       width: '100%',
       borderRadius: 10      
-    }
+    },
+    '@lg': {
+      maxWidth: '100%',
+    },
   },
 
   'div.info': {
@@ -37,7 +51,11 @@ export const RecipeInformationContainer = styled('div', {
     p: {
       fontSize: '1.125rem',
       lineHeight: 1.4
-    }
+    },
+
+    '@lg': {
+      maxWidth: '100%',
+    },
   }
 })
 
@@ -48,8 +66,14 @@ export const RecipeInfo = styled('div', {
   paddingTop: '2.5rem',
 
   display: 'flex',
+  flexWrap: 'wrap',
   justifyContent: 'space-between',
   alignItems: 'center',
+
+  '@sm': {
+    flexDirection: 'column',
+    gap: '2.5rem',
+  },
 
   'div.rating': {
     display: 'flex',
