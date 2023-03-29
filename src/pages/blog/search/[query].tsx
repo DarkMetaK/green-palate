@@ -12,7 +12,8 @@ interface IRecipeSearch {
     id: string,
     title: string,
     imageURL: string,
-    date: string     
+    date: string,
+    slug: string
   }[]
 }
 
@@ -38,6 +39,7 @@ export default function RecipeSearch({postsResult}: IRecipeSearch) {
           date={item.date}
           title={item.title}
           imageSize='small'
+          slug={item.slug}
         />)
       }
       </div>
@@ -57,7 +59,8 @@ export const getServerSideProps: GetServerSideProps<any, {query: string}> = asyn
           id: item.id,
           title: item.title,
           imageURL: item.imageURL,
-          date: item.date
+          date: item.date,
+          slug: item.slug
         }
       ))
     }
