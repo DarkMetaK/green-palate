@@ -1,4 +1,4 @@
-import { GetStaticPaths, GetStaticProps } from 'next';
+import { GetServerSideProps } from 'next';
 import Image from 'next/image';
 import { api } from '@/services/api';
 
@@ -88,7 +88,7 @@ export default function Post({
   )
 }
 
-export const getStaticProps: GetStaticProps<any, {post: string}> = async({params}) => {
+export const getServerSideProps: GetServerSideProps<any, {post: string}> = async({params}) => {
 
   if (!params?.post) {
     return {
@@ -143,15 +143,3 @@ export const getStaticProps: GetStaticProps<any, {post: string}> = async({params
   }
 }
 
-export const getStaticPaths:  GetStaticPaths = async() => {
-  return {
-    paths: [
-      {params: {post: 'Como-conservar-beterraba'}},
-      {params: {post: 'Diga-não-ao-desperdício-receitas-para-reaproveitar-cascas-vegetais'}},
-      {params: {post: 'energia-solar-alternativa-sustentavel'}},
-      {params: {post: 'importancia-reciclagem-para-meio-ambiente'}},
-      {params: {post: 'proteinas-vegetais-duvidas-e-respostas'}},
-    ],
-    fallback: true
-  }
-}

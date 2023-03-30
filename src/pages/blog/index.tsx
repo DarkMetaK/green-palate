@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { GetStaticProps } from 'next';
+import { GetServerSideProps } from 'next';
 import { api } from '@/services/api';
 
 import { BlogContainer, BlogMainContent } from '@/styles/pages/Blog';
@@ -89,7 +89,7 @@ export default function Blog({posts}: IBlog) {
   )
 }
 
-export const getStaticProps:GetStaticProps = async() => {
+export const getServerSideProps:GetServerSideProps = async() => {
   let posts = []
 
   try {

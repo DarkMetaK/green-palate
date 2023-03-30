@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { GetStaticPaths, GetStaticProps } from 'next';
+import { GetServerSideProps } from 'next';
 import { useRouter } from 'next/router';
 import { CaretLeft, CaretRight, SlidersHorizontal } from 'phosphor-react';
 import 'keen-slider/keen-slider.min.css';
@@ -192,7 +192,7 @@ export default function RecipeCategory({recipesFilteredByCategory, topTenRecipes
   )
 }
 
-export const getStaticProps: GetStaticProps<any, {category: string}> = async({params}) => {
+export const getServerSideProps: GetServerSideProps<any, {category: string}> = async({params}) => {
   let recipesFilteredByCategory = []
   let topTenRecipes = []
   let books = []
@@ -249,19 +249,5 @@ export const getStaticProps: GetStaticProps<any, {category: string}> = async({pa
       topTenRecipes,
       books
     }
-  }
-}
-
-export const getStaticPaths:  GetStaticPaths = async() => {
-  return {
-    paths: [
-      {params: {category: 'main'}},
-      {params: {category: 'appetizer'}},
-      {params: {category: 'drinks'}},
-      {params: {category: 'dessert'}},
-      {params: {category: 'snacks'}},
-      {params: {category: 'breakfast'}}
-    ],
-    fallback: false
   }
 }

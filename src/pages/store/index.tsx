@@ -1,4 +1,4 @@
-import { GetStaticProps } from 'next';
+import { GetServerSideProps } from 'next';
 import { GridStoreContainerMostSelled, StoreContainer } from '@/styles/pages/Store';
 import { api } from '@/services/api';
 
@@ -38,7 +38,7 @@ export default function Store({mostSelledItems}: IStore) {
   )
 }
 
-export const getStaticProps: GetStaticProps = async() => {
+export const getServerSideProps: GetServerSideProps = async() => {
   let mostSelledItems = []
   try {
     mostSelledItems = await (await api.get('/api/productsPreview?_limit=8')).data

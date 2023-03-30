@@ -1,4 +1,4 @@
-import { GetStaticPaths, GetStaticProps } from 'next';
+import { GetServerSideProps } from 'next';
 import { useRouter } from 'next/router'
 import { StoreCategoryContainer, GridStoreCategory } from '@/styles/pages/StoreCategory';
 import { api } from '@/services/api';
@@ -48,7 +48,7 @@ export default function StoreCategory({productsByCategory}: IStore) {
   )
 }
 
-export const getStaticProps: GetStaticProps<any, {category: string}> = async({params}) => {
+export const getServerSideProps: GetServerSideProps<any, {category: string}> = async({params}) => {
   let productsByCategory = []
   try {
     productsByCategory = await (await api.get(`/api/productsPreview?category=${params?.category}`)).data
@@ -61,17 +61,5 @@ export const getStaticProps: GetStaticProps<any, {category: string}> = async({pa
     props: {
       productsByCategory
     }
-  }
-}
-
-export const getStaticPaths: GetStaticPaths = async() => {
-  return {
-    paths: [
-      {params: {category: 'utensils'}},
-      {params: {category: 'books'}},
-      {params: {category: 'ornaments'}},
-      {params: {category: 'ceramics'}}
-    ],
-    fallback: false
   }
 }
