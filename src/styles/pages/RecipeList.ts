@@ -77,7 +77,10 @@ export const RecipesList = styled('div', {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fit, 16.25rem)',
     gap: '2.5rem',
-    justifyContent: 'center',
+
+    '@md': {
+      justifyContent: 'center',
+    },
 
     '@sm': {
       gridTemplateColumns: 'minmax(auto, 22.5rem)'

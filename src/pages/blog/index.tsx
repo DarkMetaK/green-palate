@@ -7,6 +7,7 @@ import Carousel from '@/components/Carousel';
 import { AsideContent } from '@/components/AsideContent';
 import { PostsDisplay } from '@/components/PostDisplay';
 import { ButtonContainer } from '@/styles/components/Button';
+import { SearchInput } from '@/components/SearchInput';
 
 interface IPosts {
   id: string,
@@ -42,9 +43,12 @@ export default function Blog({posts}: IBlog) {
     <BlogContainer>
       <h1>Blog</h1>
       <BlogMainContent>
+        <div className='largeSearch'>
+          <SearchInput type='blog' />
+        </div>
         <Carousel posts={posts.reverse().slice(0,3)}/>
 
-        <div className="posts">
+        <div className='posts'>
           <h2>Últimos Posts</h2>
           <div>
             {postsToDisplay?.map(item => 

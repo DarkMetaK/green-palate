@@ -18,6 +18,11 @@ export const BlogContainer = styled('div', {
     gridColumn: '1 / -1'
   },
 
+  '.largeSearch': {
+    display: 'none',
+    flexBasis: 0
+  },
+
   '@lg': {
     maxWidth: '100%',
     width: 'auto',
@@ -25,6 +30,10 @@ export const BlogContainer = styled('div', {
   },
 
   '@md': {
+    '.largeSearch': {
+      display: 'block',
+      flexBasis: 1
+    },
     gridTemplateColumns: '1fr'
   },
 
