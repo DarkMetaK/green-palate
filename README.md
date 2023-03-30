@@ -36,7 +36,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Sobre
 
-<a href="https://github.com/DarkMetaK/green-palate">
+<a href="https://green-palate.vercel.app/">
     <img src="./public/template.jpg" alt="Product Name Screen Shot" width=100%>
 </a>
 
