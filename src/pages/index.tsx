@@ -146,7 +146,7 @@ export const getStaticProps:GetStaticProps = async() => {
   let topProducts = []
 
   try {
-    const recipes = await api.get('/recipes')
+    const recipes = await api.get('/api/recipes')
     recipesResumed = recipes.data.map((item: any) => (
     {
       id: item.id,
@@ -165,7 +165,7 @@ export const getStaticProps:GetStaticProps = async() => {
   }
 
   try {
-    const posts = await api.get('/posts?_sort=timeStamp&_order=desc&_limit=4')
+    const posts = await api.get('/api/posts?_sort=timeStamp&_order=desc&_limit=4')
     postsResumed = posts.data.map((item: any) => ({
       id: item.id,
       title: item.title,
@@ -179,7 +179,7 @@ export const getStaticProps:GetStaticProps = async() => {
   }
 
   try {
-    topProducts = await (await api.get('/productsPreview?_limit=3')).data
+    topProducts = await (await api.get('/api/productsPreview?_limit=3')).data
   }
   catch (error) {
     console.log('Erro ao buscar produtos\n' + error)

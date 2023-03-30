@@ -41,7 +41,7 @@ export default function Store({mostSelledItems}: IStore) {
 export const getStaticProps: GetStaticProps = async() => {
   let mostSelledItems = []
   try {
-    mostSelledItems = await (await api.get('/productsPreview?_limit=8')).data
+    mostSelledItems = await (await api.get('/api/productsPreview?_limit=8')).data
   }
   catch (error) {
     console.log(error)

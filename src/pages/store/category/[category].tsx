@@ -51,7 +51,7 @@ export default function StoreCategory({productsByCategory}: IStore) {
 export const getStaticProps: GetStaticProps<any, {category: string}> = async({params}) => {
   let productsByCategory = []
   try {
-    productsByCategory = await (await api.get(`/productsPreview?category=${params?.category}`)).data
+    productsByCategory = await (await api.get(`/api/productsPreview?category=${params?.category}`)).data
   }
   catch (error) {
     console.log(error)

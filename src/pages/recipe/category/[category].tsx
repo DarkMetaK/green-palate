@@ -198,7 +198,7 @@ export const getStaticProps: GetStaticProps<any, {category: string}> = async({pa
   let books = []
 
   try {
-    const recipes = await api.get(`/recipes?category=${params?.category}`)
+    const recipes = await api.get(`/api/recipes?category=${params?.category}`)
     recipesFilteredByCategory = recipes.data.map((item: any) => (
       {
         id: item.id,
@@ -217,7 +217,7 @@ export const getStaticProps: GetStaticProps<any, {category: string}> = async({pa
   }
 
   try {
-    const recipes = await api.get(`/recipes?_limit=10`)
+    const recipes = await api.get(`/api/recipes?_limit=10`)
     topTenRecipes = recipes.data.map((item: any) => (
       {
         id: item.id,
@@ -236,7 +236,7 @@ export const getStaticProps: GetStaticProps<any, {category: string}> = async({pa
   }
 
   try {
-    const booksList = await api.get(`/productsPreview?category=books&_limit=4`)
+    const booksList = await api.get(`/api/productsPreview?category=books&_limit=4`)
     books = booksList.data
   }
   catch(error) {

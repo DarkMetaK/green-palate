@@ -36,7 +36,7 @@ export function AsideContent({includeProducts=false, includePostSearch=false}: I
 
   async function retrievingDatafromDatabase() {
     try {
-      const recipes = await api.get('/recipes?_limit=3')
+      const recipes = await api.get('/api/recipes?_limit=3')
       const topRecipesResumed = recipes.data.map((item: any) => (
         {
           id: item.id,
@@ -56,7 +56,7 @@ export function AsideContent({includeProducts=false, includePostSearch=false}: I
     }
 
     try {
-      const topProducts = await (await api.get('/productsPreview?_limit=3')).data
+      const topProducts = await (await api.get('/api/productsPreview?_limit=3')).data
       setTopProducts(topProducts)
     }
     catch (error) {

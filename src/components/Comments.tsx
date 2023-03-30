@@ -39,7 +39,7 @@ export function Comments({recipeId}: ICommentsProps) {
   useEffect(() => {
     async function retrieveData() {
       try {
-        const response = await (await api.get(`/comments?recipeId=${recipeId}&_expand=accounts`)).data
+        const response = await (await api.get(`/api/comments?recipeId=${recipeId}&_expand=accounts`)).data
         setComments(response)
       }
       catch (error) {
@@ -58,7 +58,7 @@ export function Comments({recipeId}: ICommentsProps) {
         text: data.text
       }
       try {
-        const response = await api.post(`/comments`, info)
+        const response = await api.post(`/api/comments`, info)
         const newComment = {
           ...response.data,
           accounts: {

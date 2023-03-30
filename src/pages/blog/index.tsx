@@ -93,7 +93,7 @@ export const getStaticProps:GetStaticProps = async() => {
   let posts = []
 
   try {
-    const retrievedPosts = await api.get('/posts?_sort=timeStamp&_order=desc')
+    const retrievedPosts = await api.get('/api/posts?_sort=timeStamp&_order=desc')
     posts = retrievedPosts.data.map((item: any) => (
     {
       id: item.id,

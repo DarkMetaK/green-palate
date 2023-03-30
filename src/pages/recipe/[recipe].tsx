@@ -149,7 +149,7 @@ export const getServerSideProps: GetServerSideProps<any, {recipe: string}> = asy
   let recipeData = {}
 
   try {
-    const recipeInfo = await api.get(`/recipes?slug=${query.recipe}`)
+    const recipeInfo = await api.get(`/api/recipes?slug=${query.recipe}`)
     if (recipeInfo.data.length) {
       recipeData = recipeInfo.data[0]
     }

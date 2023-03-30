@@ -101,7 +101,7 @@ export const getStaticProps: GetStaticProps<any, {post: string}> = async({params
 
   let postData = {}
   try {
-    const postInfo = await api.get(`/posts?slug=${params.post}`)
+    const postInfo = await api.get(`/api/posts?slug=${params.post}`)
     if (postInfo.data.length) {
       postData = postInfo.data[0]
     }
@@ -120,7 +120,7 @@ export const getStaticProps: GetStaticProps<any, {post: string}> = async({params
 
   let otherPosts = []
   try {
-    const retrievedPosts = await api.get('/posts?_sort=timeStamp&_order=desc&_limit=4')
+    const retrievedPosts = await api.get('/api/posts?_sort=timeStamp&_order=desc&_limit=4')
     otherPosts = retrievedPosts.data.map((item: any) => (
     {
       id: item.id,

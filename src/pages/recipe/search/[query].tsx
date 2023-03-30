@@ -57,7 +57,7 @@ export const getServerSideProps: GetServerSideProps<any, {query: string}> = asyn
 
   if (params?.query) {
     try {
-      const recipes = await api.get(`/recipes?q=${params.query}`)
+      const recipes = await api.get(`/api/recipes?q=${params.query}`)
       recipesResult = recipes.data.map((item: any) => (
         {
           id: item.id,

@@ -58,13 +58,13 @@ export const AuthContextProvider = ({children}: IAuthContextProvider) => {
   async function handleCreateAccount(accountData: IAccountDataToCreateAccount) {
     try {
       // Verify if email already exists
-      const { data } = await api.get(`/accounts?email=${accountData.email}`)
+      const { data } = await api.get(`/api/accounts?email=${accountData.email}`)
       if(data.length !== 0) {
         return false
       } 
       else {
         accountData.id = uuidv4()
-        const response = await api.post('accounts', JSON.stringify(accountData), 
+        const response = await api.post('/api/accounts', JSON.stringify(accountData), 
         {
           headers: {'Content-Type': 'application/json'}
         })
@@ -86,7 +86,7 @@ export const AuthContextProvider = ({children}: IAuthContextProvider) => {
 
   async function handleLogin(loginData: ILoginData) {
     try{
-      const { data } = await api.get<Array<IUser>>(`accounts?email=${loginData.email}&password=${loginData.password}`)
+      const { data } = await api.get<Array<IUser>>(`/api/accounts?email=${loginData.email}&password=${loginData.password}`)
       if(data.length) {
         const info = {userName: data[0].userName, email: data[0].email, id: data[0].id}
 
